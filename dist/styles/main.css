@@ -169,6 +169,8 @@ header .header-container {
     .concept .description .title {
       font-size: 24px;
       font-weight: 900;
+      letter-spacing: 1px;
+      color: #4353FF;
       margin-bottom: 20px; }
       @media only screen and (max-width: 768px) {
         .concept .description .title {
@@ -176,7 +178,8 @@ header .header-container {
           margin-top: 36px;
           margin-bottom: 16px; } }
     .concept .description .text {
-      margin-bottom: 51px; }
+      margin-bottom: 51px;
+      letter-spacing: 1px; }
       @media only screen and (max-width: 768px) {
         .concept .description .text {
           font-size: 14px; } }
