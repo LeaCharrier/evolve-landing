@@ -171,6 +171,14 @@ header {
       border: 1px solid #4353FF;
       padding: 12px 38px; } }
 
+@media only screen and (max-width: 768px) {
+  .button_resp_bleu {
+    background-color: #4353FF;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid #4353FF;
+    padding: 12px 38px; } }
+
 .concept {
   display: flex;
   justify-content: space-between;
