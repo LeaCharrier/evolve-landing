@@ -53,3 +53,9 @@ a{
 body{
   overflow-x: hidden;
 }
+
+.hideTablet {
+   @include maxWidth($breakPointTablet) {
+      display: none;
+    }
+}
