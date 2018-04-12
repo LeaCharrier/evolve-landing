@@ -1,17 +1,56 @@
 .concept {
-  margin-top: 105px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1020px;
+  width: 100%;
+  margin: 105px auto 0;
+  padding: 0 80px;
+
+  @include maxWidth($breakPointTablet) {
+    padding: 0 16px;
+    margin: 41px auto 0;
+    flex-direction: column;
+  }
 
   .description {
     max-width: 362px;
+    width: 100%;
 
-    .title {
-      font-weight: 900;
-      font-size: 24px;
-      margin-bottom: 20px;
+    @include maxWidth($breakPointTablet) {
+      order: 1;
+      margin: 0 auto;
     }
 
-    .texte {
+    .title {
+      font-size: 24px;
+      font-weight: 900;
+      margin-bottom: 20px;
 
+      @include maxWidth($breakPointTablet) {
+        font-size: 18px;
+        margin-top: 36px;
+        margin-bottom: 16px;
+      }
+    }
+
+    .text {
+      margin-bottom: 51px;
+
+      @include maxWidth($breakPointTablet) {
+        font-size: 14px;
+      }
+
+      @include maxWidth($breakPointTablet) {
+        order: 2;
+      }
+    }
+  }
+
+  .robot {
+    @include maxWidth($breakPointTablet) {
+      max-width: 260px;
+      width: 50%;
+      margin: 0 auto;
     }
   }
 }

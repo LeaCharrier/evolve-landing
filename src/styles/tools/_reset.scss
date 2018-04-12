@@ -58,6 +58,6 @@ body{
 
 .hideTablet {
    @include maxWidth($breakPointTablet) {
-      display: none;
+      display: none !important;
     }
 }
