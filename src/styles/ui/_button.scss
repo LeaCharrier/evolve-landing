@@ -1,0 +1,24 @@
+.button {
+  display: inline-block;
+  font-size: 16px;
+  color: $white;
+  border: 1px solid $white;
+  background-color: $blue;
+  padding: 18px 48px;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    color: $blue;
+    border: 1px solid $blue;
+    background-color: $white;
+  }
+
+  @include maxWidth($breakPointTablet) {
+    background-color: $white;
+    font-size: 14px;
+    color: $blue;
+    border: 1px solid $blue;
+    padding: 12px 38px;
+  }
+}

@@ -20,29 +20,4 @@ header {
       }
     }
   }
-
-  .linkRdv {
-    background-color: $blue;
-    padding: 18px 48px;
-    border-radius: 30px;
-    font-size: 16px;
-    color: $white;
-    border: 1px solid $white;
-    font-family: $lato;
-    transition: background-color 0.3s ease;
-
-    &:hover {
-      background-color: $white;
-      color: $blue;
-      border: 1px solid $blue;
-    }
-
-    @include maxWidth($breakPointTablet) {
-      background-color: $white;
-      padding: 12px 38px;
-      font-size: 14px;
-      color: $blue;
-      border: 1px solid $blue;
-    }
-  }
 }
