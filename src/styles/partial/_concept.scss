@@ -3,12 +3,12 @@
   justify-content: space-between;
   max-width: 1020px;
   width: 100%;
-  margin: 105px auto 0;
+  margin: 230px auto 0;
   padding: 0 80px;
 
   @include maxWidth($breakPointTablet) {
     padding: 0 16px;
-    margin: 41px auto 0;
+    margin: 100px auto 0;
     flex-direction: column;
   }
 
@@ -56,4 +56,10 @@
       margin: 0 auto;
     }
   }
+}
+
+
+.separator {
+  height: 535px;
+  width: 100%;
 }

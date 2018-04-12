@@ -1,15 +1,22 @@
 header {
-  
+  position:fixed;
+  background: $white;
+  top: 0;
+  width: 100%;
+
   .header-container {
-    margin-top: 24px;
-    padding: 0 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 0px 2px 16px $grey;
+    padding: 24px 80px;
+
+    @include maxWidth($breakPointDesktop) {
+      padding: 24px 30px;
+    }
 
     @include maxWidth($breakPointTablet) {
-      padding: 0 16px;
-      margin-top: 16px;
+      padding: 16px 16px;
     }
 
     .logoMobile {
@@ -17,6 +24,32 @@ header {
 
       @include maxWidth($breakPointTablet) {
         display: block;
+      }
+    }
+
+    .button {
+      background-color: $white;
+      color: $blue;
+      border: 1px solid $blue;
+
+      &:hover {
+        color: $white;
+        border: 1px solid $white;
+        background-color: $blue;
+      }
+    }
+
+    .linkHeader {
+      margin-right: 50px;
+      color: $blue;
+      border-bottom: 1px solid $white;
+
+      @include maxWidth($breakPointDesktop) {
+        margin-right: 15px;
+      }
+
+      &:hover {
+        border-bottom: 1px solid $blue;
       }
     }
   }
