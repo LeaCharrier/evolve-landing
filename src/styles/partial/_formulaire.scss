@@ -1,0 +1,108 @@
+.formulaire {
+    max-width: 380px;
+    width: 100%;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    margin-top: 75px;
+
+    h2 {
+        font-size: 24px;
+        font-family: $lato;
+        color: $blue;
+        font-weight: 700;
+        padding-bottom: 36px;
+    }
+
+    form {
+        width: 100%;
+        div {
+            padding: 20px 0;
+
+            label {
+                display: block;
+                text-transform: uppercase;
+                font-size: 14px;
+                font-family: $lato;
+                font-weight: 500;
+                color: $blue;
+                padding: 5px 0;
+            }
+
+            output {
+                font-size: 18px;
+                font-family: $lato;
+                font-weight: 500;
+                color: $blue;
+                margin-left: 4px;
+            }
+
+            input {
+                width: 100%;
+                border: none;
+                border-bottom: 1px solid rgba($blue, .5);
+                padding: 5px 0;
+                font-size: 18px;
+                color: $blue;
+                font-family: $lato;
+
+                &::placeholder {
+                    font-size: 18px;
+                    font-family: $lato;
+                    font-weight: 300;
+                }
+
+                &[name=getValue] {
+                    border: none;
+                }
+
+                &[type=range] {
+                    height: 1px;
+                    border: none;
+                    -webkit-appearance: none;
+
+                    &:focus {
+                        outline: none;
+                    }
+
+                    // Bouton range
+                    &::-webkit-slider-thumb {
+                        -webkit-appearance: none;
+                        background: $blue;
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 50%;
+                        opacity: 1;
+                        margin-top: -6px;
+                    }
+
+                    &::-moz-range-thumb {
+                        background: $blue;
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 50%;
+                        opacity: 1;
+                        margin-top: -6px;
+                    }
+
+
+                    // Ligne de sélection
+                    &::-webkit-slider-runnable-track {
+                        background: rgba($blue, .5);
+                        height: 1px;
+                    }
+                    
+                    &::-moz-range-track {
+                        height: 1px;
+                    }
+
+                    
+                }
+            }
+
+            &.container_cta {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}

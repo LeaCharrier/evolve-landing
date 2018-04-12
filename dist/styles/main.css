@@ -310,6 +310,7 @@ header {
   .programme .cta {
     text-align: center; }
 
+<<<<<<< HEAD
 .temoignages {
   position: relative;
   width: 100%;
@@ -344,6 +345,81 @@ header {
         .temoignages .temoignage .personne .infos .name {
           font-weight: 700;
           margin-bottom: 6px; }
+=======
+.formulaire {
+  max-width: 380px;
+  width: 100%;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  margin-top: 75px; }
+  .formulaire h2 {
+    font-size: 24px;
+    font-family: "lato", arial, sans-serif;
+    color: #4353FF;
+    font-weight: 700;
+    padding-bottom: 36px; }
+  .formulaire form {
+    width: 100%; }
+    .formulaire form div {
+      padding: 20px 0; }
+      .formulaire form div label {
+        display: block;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family: "lato", arial, sans-serif;
+        font-weight: 500;
+        color: #4353FF;
+        padding: 5px 0; }
+      .formulaire form div output {
+        font-size: 18px;
+        font-family: "lato", arial, sans-serif;
+        font-weight: 500;
+        color: #4353FF;
+        margin-left: 4px; }
+      .formulaire form div input {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid rgba(67, 83, 255, 0.5);
+        padding: 5px 0;
+        font-size: 18px;
+        color: #4353FF;
+        font-family: "lato", arial, sans-serif; }
+        .formulaire form div input::placeholder {
+          font-size: 18px;
+          font-family: "lato", arial, sans-serif;
+          font-weight: 300; }
+        .formulaire form div input[name=getValue] {
+          border: none; }
+        .formulaire form div input[type=range] {
+          height: 1px;
+          border: none;
+          -webkit-appearance: none; }
+          .formulaire form div input[type=range]:focus {
+            outline: none; }
+          .formulaire form div input[type=range]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            background: #4353FF;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            opacity: 1;
+            margin-top: -6px; }
+          .formulaire form div input[type=range]::-moz-range-thumb {
+            background: #4353FF;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            opacity: 1;
+            margin-top: -6px; }
+          .formulaire form div input[type=range]::-webkit-slider-runnable-track {
+            background: rgba(67, 83, 255, 0.5);
+            height: 1px; }
+          .formulaire form div input[type=range]::-moz-range-track {
+            height: 1px; }
+      .formulaire form div.container_cta {
+        display: flex;
+        justify-content: center; }
+>>>>>>> f9ed25f6528705d85748ab6f3dc067f6e621a253
 
 /* Slider */
 .slick-slider {
