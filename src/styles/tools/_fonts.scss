@@ -1,42 +1,7 @@
 @font-face {
-    font-family:'avenirnext';
-    src:url('../fonts/avenirnext/AvenirNextW06-Regular.eot'),
-        url('../fonts/avenirnext/AvenirNextW06-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/avenirnext/AvenirNextW06-Regular.woff2') format('woff2'),
-        url('../fonts/avenirnext/AvenirNextW06-Regular.woff') format('woff'),
-        url('../fonts/avenirnext/AvenirNextW06-Regular.ttf') format('truetype'),
-        url('../fonts/avenirnext/AvenirNextW06-Regular.svg#AvenirNextW06-Regular') format('svg');
-}
-
-@font-face {
-    font-family:'avenirnext';
-    src:url('../fonts/avenirnext/AvenirNextW05-Medium.eot'),
-        url('../fonts/avenirnext/AvenirNextW05-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/avenirnext/AvenirNextW05-Medium.woff2') format('woff2'),
-        url('../fonts/avenirnext/AvenirNextW05-Medium.woff') format('woff'),
-        url('../fonts/avenirnext/AvenirNextW05-Medium.ttf') format('truetype'),
-        url('../fonts/avenirnext/AvenirNextW05-Medium.svg#AvenirNextW05-Medium') format('svg');
-    font-weight: 500;
-}
-
-@font-face {
-    font-family:'avenirnext';
-    src:url('../fonts/avenirnext/AvenirNextW05-Demi.eot'),
-        url('../fonts/avenirnext/AvenirNextW05-Demi.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/avenirnext/AvenirNextW05-Demi.woff2') format('woff2'),
-        url('../fonts/avenirnext/AvenirNextW05-Demi.woff') format('woff'),
-        url('../fonts/avenirnext/AvenirNextW05-Demi.ttf') format('truetype'),
-        url('../fonts/avenirnext/AvenirNextW05-Demi.svg#AvenirNextW05-Demi') format('svg');
-    font-weight: 600;
-}
-
-
-
-
-@font-face {
     font-family: 'lato';
-    src: url('../fonts/avenirnext/lato-black-webfont.woff2') format('woff2'),
-         url('../fonts/avenirnext/lato-black-webfont.woff') format('woff');
+    src: url('../fonts/lato/lato-black-webfont.woff2') format('woff2'),
+         url('../fonts/lato/lato-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -47,8 +12,8 @@
 
 @font-face {
     font-family: 'lato';
-    src: url('../fonts/avenirnext/lato-blackitalic-webfont.woff2') format('woff2'),
-         url('../fonts/avenirnext/lato-blackitalic-webfont.woff') format('woff');
+    src: url('../fonts/lato/lato-blackitalic-webfont.woff2') format('woff2'),
+         url('../fonts/lato/lato-blackitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -59,8 +24,8 @@
 
 @font-face {
     font-family: 'lato';
-    src: url('../fonts/avenirnext/lato-bold-webfont.woff2') format('woff2'),
-         url('../fonts/avenirnext/lato-bold-webfont.woff') format('woff');
+    src: url('../fonts/lato/lato-bold-webfont.woff2') format('woff2'),
+         url('../fonts/lato/lato-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -71,8 +36,8 @@
 
 @font-face {
     font-family: 'lato';
-    src: url('../fonts/avenirnext/lato-bolditalic-webfont.woff2') format('woff2'),
-         url('../fonts/avenirnext/lato-bolditalic-webfont.woff') format('woff');
+    src: url('../fonts/lato/lato-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/lato/lato-bolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -83,8 +48,8 @@
 
 @font-face {
     font-family: 'lato';
-    src: url('../fonts/avenirnext/lato-hairline-webfont.woff2') format('woff2'),
-         url('../fonts/avenirnext/lato-hairline-webfont.woff') format('woff');
+    src: url('../fonts/lato/lato-hairline-webfont.woff2') format('woff2'),
+         url('../fonts/lato/lato-hairline-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -95,8 +60,8 @@
 
 @font-face {
     font-family: 'lato';
-    src: url('../fonts/avenirnext/lato-hairlineitalic-webfont.woff2') format('woff2'),
-         url('../fonts/avenirnext/lato-hairlineitalic-webfont.woff') format('woff');
+    src: url('../fonts/lato/lato-hairlineitalic-webfont.woff2') format('woff2'),
+         url('../fonts/lato/lato-hairlineitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -107,8 +72,8 @@
 
 @font-face {
     font-family: 'lato';
-    src: url('../fonts/avenirnext/lato-italic-webfont.woff2') format('woff2'),
-         url('../fonts/avenirnext/lato-italic-webfont.woff') format('woff');
+    src: url('../fonts/lato/lato-italic-webfont.woff2') format('woff2'),
+         url('../fonts/lato/lato-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -119,8 +84,8 @@
 
 @font-face {
     font-family: 'lato';
-    src: url('../fonts/avenirnext/lato-light-webfont.woff2') format('woff2'),
-         url('../fonts/avenirnext/lato-light-webfont.woff') format('woff');
+    src: url('../fonts/lato/lato-light-webfont.woff2') format('woff2'),
+         url('../fonts/lato/lato-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -131,8 +96,8 @@
 
 @font-face {
     font-family: 'lato';
-    src: url('../fonts/avenirnext/lato-lightitalic-webfont.woff2') format('woff2'),
-         url('../fonts/avenirnext/lato-lightitalic-webfont.woff') format('woff');
+    src: url('../fonts/lato/lato-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/lato/lato-lightitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -143,8 +108,8 @@
 
 @font-face {
     font-family: 'lato';
-    src: url('../fonts/avenirnext/lato-regular-webfont.woff2') format('woff2'),
-         url('../fonts/avenirnext/lato-regular-webfont.woff') format('woff');
+    src: url('../fonts/lato/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lato/lato-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
