@@ -310,6 +310,41 @@ header {
   .programme .cta {
     text-align: center; }
 
+.temoignages {
+  position: relative;
+  width: 100%;
+  height: 535px;
+  background-image: url("../images/bg-imgs.png");
+  background-repeat: no-repeat;
+  margin-top: 220px;
+  margin-bottom: 280px;
+  background-size: 100% 100%; }
+  @media only screen and (max-width: 1440px) {
+    .temoignages {
+      height: 390px; } }
+  @media only screen and (max-width: 768px) {
+    .temoignages {
+      background-image: url("../images/bg-mobile.png"); } }
+  .temoignages .temoignage {
+    position: absolute;
+    max-width: 335px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+    .temoignages .temoignage .description {
+      margin-bottom: 34px;
+      font-size: 18px;
+      letter-spacing: 0.6px;
+      text-align: center; }
+    .temoignages .temoignage .personne {
+      display: flex;
+      justify-content: center; }
+      .temoignages .temoignage .personne .infos {
+        margin-left: 18px; }
+        .temoignages .temoignage .personne .infos .name {
+          font-weight: 700;
+          margin-bottom: 6px; }
+
 /* Slider */
 .slick-slider {
   position: relative;

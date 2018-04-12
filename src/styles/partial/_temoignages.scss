@@ -1,0 +1,49 @@
+.temoignages {
+  position: relative;
+  width: 100%;
+  height: 535px;
+  background-image: url('../images/bg-imgs.png');
+  background-repeat: no-repeat;
+  margin-top: 220px;
+  margin-bottom: 280px;
+  background-size: 100% 100%;
+
+  @include maxWidth($breakPointMaxDesktop) {
+    height: 390px;
+  }
+
+  @include maxWidth($breakPointTablet) {
+    background-image: url('../images/bg-mobile.png');
+  }
+
+  .temoignage {
+    position: absolute;
+    max-width: 335px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    .description {
+      margin-bottom: 34px;
+      font-size: 18px;
+      letter-spacing: 0.6px;
+      text-align: center;
+    }
+
+    .personne {
+      display: flex;
+      justify-content: center;
+
+      .infos {
+
+        margin-left: 18px;
+
+        .name {
+          font-weight: 700;
+          margin-bottom: 6px;
+        }
+      }
+
+    }
+  }
+}
