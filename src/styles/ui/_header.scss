@@ -9,10 +9,10 @@ header {
     align-items: center;
     justify-content: space-between;
     box-shadow: 0px 2px 16px $grey;
-    padding: 24px 80px;
+    padding: 12px 80px;
 
     @include maxWidth($breakPointDesktop) {
-      padding: 24px 30px;
+      padding: 12px 30px;
     }
 
     @include maxWidth($breakPointTablet) {

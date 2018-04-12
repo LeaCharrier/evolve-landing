@@ -120,10 +120,10 @@ header {
     align-items: center;
     justify-content: space-between;
     box-shadow: 0px 2px 16px #D2D2D2;
-    padding: 24px 80px; }
+    padding: 12px 80px; }
     @media only screen and (max-width: 1024px) {
       header .header-container {
-        padding: 24px 30px; } }
+        padding: 12px 30px; } }
     @media only screen and (max-width: 768px) {
       header .header-container {
         padding: 16px 16px; } }
@@ -218,7 +218,8 @@ header {
 
 .separator {
   height: 535px;
-  width: 100%; }
+  width: 100%;
+  background-image: url("../images/bg.png"); }
 
 /* Slider */
 .slick-slider {
