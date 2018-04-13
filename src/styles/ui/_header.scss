@@ -1,15 +1,23 @@
 header {
   z-index: 1000;
-  position:fixed;
+  // position:fixed;
   background: $white;
   top: 0;
   width: 100%;
+
+  .scroll {
+    position:fixed;
+
+    .header-container {
+      box-shadow: 0px 2px 22px $grey2;
+    }
+  }
 
   .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 2px 16px $grey;
+    // box-shadow: 0px 2px 22px $grey2;
     padding: 12px 80px;
 
     @include maxWidth($breakPointDesktop) {

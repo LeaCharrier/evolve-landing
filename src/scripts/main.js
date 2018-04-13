@@ -1,5 +1,3 @@
-console.log('jquery ok');
-
 $(document).ready(function() {
     
     /* Every time the window is scrolled ... */
@@ -22,3 +20,18 @@ $(document).ready(function() {
     });
     
 });
+
+jQuery(document).ready(function($) {
+  scrollNav();
+});
+
+
+  var scrollNav = function() {
+    $(window).scroll(function() {    
+      var scroll = $(window).scrollTop();    
+      if (scroll > 100) {
+        console.log('scroll');
+      }
+    });
+  }
+
