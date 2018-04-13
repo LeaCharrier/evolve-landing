@@ -23,26 +23,11 @@
     
     <main>
         <section class="formulaire">
-            <h2>Prendre rendez-vous en ligne</h2>
+            <h2>Estimer le nombre de séances</h2>
             <form action="">
-                <div>
-                    <label for="">nom</label> <br>
-                    <input type="text" placeholder="Dupont">
-                </div>
-
-                <div>
-                    <label for="">prénom</label> <br>
-                    <input type="text" placeholder="Marc">
-                </div>
-
                 <div>
                     <label for="">mail</label> <br>
                     <input type="mail" placeholder="dupontmarc@gmail.com">
-                </div>
-
-                <div>
-                    <label for="">numéro</label> <br>
-                    <input type="tel" placeholder="0728947193">
                 </div>
 
                 <div>
@@ -50,8 +35,13 @@
                     <input type="range" min="1" max="10" value="1" name="range" oninput="result4.value=parseInt(range.value)">
                 </div>
 
-                 <button id="submit">
-                  <span class="icon">Envoyé</span>
+                <div>
+                    <label for="">Commentaire à ajouter</label> <br>
+                    <input type="text" placeholder="Peur des robots">
+                </div>
+
+                <button id="submit">
+                  <span class="icon">10 séances</span>
                   <span class="text">Envoyer</span>
                   <span class="spinner">
                     <svg width="50" height="50">
@@ -99,7 +89,7 @@
   <!-- build:js scripts/main.js -->
   <script src="scripts/main.js"></script>
   <!-- endbuild -->        
-
+  
     <script>
         function updaterangeLabel(val) {
             document.getElementById('rangeLabel').value = val

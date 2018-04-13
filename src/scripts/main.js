@@ -28,6 +28,7 @@ $(document).ready(function() {
 
 jQuery(document).ready(function($) {
   scrollNav();
+  submit();
 });
 
 
@@ -42,6 +43,7 @@ jQuery(document).ready(function($) {
     });
   }
 
+<<<<<<< HEAD
 
 
   // Smooth scroll
@@ -76,3 +78,30 @@ function updaterangeLabel(val) {
 }
 
 
+=======
+  var submit = function() {
+    var $button = $('#submit');
+    var $reset = $('#reset');
+
+    $button.on('click', function(e) {
+      e.preventDefault();
+      setTimeout(function(){
+         $button.addClass('clicked');
+      }, 500);
+      
+      $button.one('animationend webkitAnimationEnd MSAnimationEnd oAnimationEnd', function(){
+            // Do something once!
+            $(this).addClass('submited');
+      });
+    });
+
+
+
+    $reset.on('click', function(e) {
+      e.preventDefault();
+      $button.removeClass('clicked');
+      $button.removeClass('submited');
+      $button.off('animationend webkitAnimationEnd MSAnimationEnd oAnimationEnd');
+    });
+  }
+>>>>>>> b67a971d4e5677b431e5b35f99d1dafd4d2df551
