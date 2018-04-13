@@ -175,10 +175,8 @@ header {
 @media only screen and (max-width: 768px) {
   .button_resp_bleu {
     background-color: #4353FF;
-    font-size: 14px;
     color: #fff;
-    border: 1px solid #4353FF;
-    padding: 12px 38px; } }
+    border: 1px solid #4353FF; } }
 
 footer {
   background-image: url("../images/bg-footer.png");
@@ -188,7 +186,8 @@ footer {
   height: 512px; }
   @media only screen and (max-width: 768px) {
     footer {
-      background-image: url("../images/bg-footer-mobile.png"); } }
+      background-image: url("../images/bg-footer-mobile.png");
+      height: 750px; } }
   footer .container_carre {
     display: flex;
     justify-content: space-between;
@@ -199,15 +198,23 @@ footer {
     margin: 0 auto; }
     @media only screen and (max-width: 768px) {
       footer .container_carre {
-        flex-wrap: wrap;
-        max-width: 500px; } }
+        flex-direction: column;
+        max-width: 500px;
+        height: auto;
+        padding-top: 70px; } }
     footer .container_carre div {
       display: flex;
       max-width: 550px;
       width: 100%;
       justify-content: space-between; }
+      @media only screen and (max-width: 768px) {
+        footer .container_carre div {
+          flex-direction: column; } }
       footer .container_carre div div {
         flex-direction: column; }
+        @media only screen and (max-width: 768px) {
+          footer .container_carre div div {
+            margin-bottom: 50px; } }
         footer .container_carre div div div {
           width: 32px;
           height: 32px;
@@ -223,21 +230,27 @@ footer {
   footer .container_contact {
     display: flex;
     justify-content: space-around;
-    max-width: 150px;
+    max-width: 200px;
     width: 100%;
     margin: 0 auto; }
+    @media only screen and (max-width: 768px) {
+      footer .container_contact {
+        margin-top: 60px; }
+        footer .container_contact a img {
+          width: 48px; } }
   footer .credit {
     color: #fff;
     font-family: "lato", arial, sans-serif;
     font-weight: 300;
     font-size: 16px;
-    margin-left: 100px; }
+    margin-left: 80px; }
     @media only screen and (max-width: 768px) {
       footer .credit {
         display: flex;
-        justify-content: center;
+        padding-left: 24px;
         margin-left: 0;
-        margin-top: 15px; } }
+        margin-top: 45px;
+        padding-bottom: 30px; } }
 
 .concept {
   display: flex;
