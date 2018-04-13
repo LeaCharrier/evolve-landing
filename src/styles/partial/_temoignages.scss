@@ -19,11 +19,144 @@
     margin-bottom: 100px;
   }
 
+  .imgs {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+
+    @include maxWidth($breakPointTablet) {
+      display: none;
+    }
+
+    &-left {
+      position: absolute;
+      width: 30%;
+      left: 0;
+
+      &-contain {
+        position: relative;
+        margin: 60px 30px 0;
+
+        img {
+          position: absolute;
+
+          &:nth-child(1) {
+            left: 26px;
+          }  
+
+          &:nth-child(2) {
+            top: 54px;
+            left: 170px;
+
+            @include maxWidth($breakPointDesktop) {
+              left: 120px;
+            }
+          }  
+
+          &:nth-child(3) {
+            top: 190px;
+          }  
+
+          &:nth-child(4) {
+            top: 260px;
+            left: 213px;
+
+            @include maxWidth($breakPointDesktop) {
+              top: 210px;
+              left: 160px;
+            }
+          }  
+
+          &:nth-child(5) {
+            top: 400px;
+
+            @include maxWidth($breakPointDesktop) {
+              top: 340px;
+            }
+          }  
+
+          &:nth-child(6) {
+            top: 450px;
+            left: 145px;
+
+            @include maxWidth($breakPointDesktop) {
+              top: 420px;
+              left: 110px;
+            }
+          }        
+        }
+      }
+    }
+
+    &-right {
+      position: absolute;
+      width: 30%;
+      right: 0;
+
+       &-contain {
+        position: relative;
+        margin: 20px 30px 0;
+
+        img {
+          position: absolute;
+
+          &:nth-child(1) {
+            right: 26px;
+          }  
+
+          &:nth-child(2) {
+            top: 90px;
+            right: 170px;
+
+            @include maxWidth($breakPointDesktop) {
+              right: 120px;
+            }
+          }  
+
+          &:nth-child(3) {
+            top: 170px;
+            right: 0;
+          }  
+
+          &:nth-child(4) {
+            top: 280px;
+            right: 213px;
+
+            @include maxWidth($breakPointDesktop) {
+              top: 230px;
+              right: 160px;
+            }
+          }  
+
+          &:nth-child(5) {
+            top: 400px;
+            right: 0;
+
+            @include maxWidth($breakPointDesktop) {
+              top: 340px;
+            }
+          }  
+
+          &:nth-child(6) {
+            top: 450px;
+            right: 145px;
+
+            @include maxWidth($breakPointDesktop) {
+              top: 420px;
+              right: 110px;
+            }
+          }        
+        }        
+      }
+    }
+  }
+
   .temoignage {
     position: absolute;
     max-width: 335px;
     left: 50%;
-    top: 50%;
+    top: 56%;
     transform: translate(-50%, -50%);
 
     .description {
