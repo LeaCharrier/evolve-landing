@@ -26,21 +26,14 @@ footer {
       padding-top: 70px;
     }
 
-    div {
-      display: flex;
-      max-width: 550px;
-      width: 100%;
-      justify-content: space-between;
 
-      @include maxWidth($breakPointTablet) {
-        flex-direction: column;
-      }
 
       div {
         flex-direction: column;
 
         @include maxWidth($breakPointTablet) {
           margin-bottom: 50px;
+          flex-direction: column;
         }
 
         div {
@@ -59,7 +52,6 @@ footer {
           font-size: 16px;
         }
       }
-    }
   }
 
   .container_contact {
