@@ -60,6 +60,9 @@
       left: 106px !important;
       top: 38px !important;
       z-index: 5;
+      @include maxWidth($breakPointTablet) {
+        display: none !important;
+      }
     }
 
     .oeil-droit {
@@ -71,6 +74,9 @@
       left: 145px !important;
       top: 38px !important;
       z-index: 5;
+      @include maxWidth($breakPointTablet) {
+        display: none !important;
+      }
     }
 
     .robot {
@@ -78,12 +84,16 @@
       display: inherit !important;
 
       @include maxWidth($breakPointTablet) {
-        max-width: 260px;
-        width: 50%;
-        margin: 0 auto;
-
+        display: none !important;
       }
-  }
+    }
+      .robot_resp {
+        display: none !important;
+
+        @include maxWidth($breakPointTablet) {
+          display: block !important;
+        }
+      }
   }
 }
 
