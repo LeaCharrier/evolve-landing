@@ -336,9 +336,10 @@ footer {
         display: block;
         text-transform: uppercase;
         font-size: 14px;
-        font-weight: 700;
+        font-weight: 500;
         letter-spacing: 0.5px;
-        padding-top: 48px; }
+        padding-top: 48px;
+        color: #D2D2D2; }
         @media only screen and (max-width: 768px) {
           .programme .etape .description .subtitle {
             font-size: 12px;
@@ -347,14 +348,17 @@ footer {
         font-size: 24px;
         font-weight: 900;
         letter-spacing: 0.7px;
-        margin: 24px 0 16px; }
+        margin: 24px 0 16px;
+        color: #4353FF;
+        font-weight: 700; }
         @media only screen and (max-width: 768px) {
           .programme .etape .description .title {
             font-size: 18px;
             margin: 16px 0 8px; } }
       .programme .etape .description .paragraphe {
         font-size: 18px;
-        letter-spacing: 0.6px; }
+        letter-spacing: 0.6px;
+        font-weight: 300; }
         @media only screen and (max-width: 768px) {
           .programme .etape .description .paragraphe {
             font-size: 16px; } }
@@ -403,7 +407,9 @@ footer {
       margin-bottom: 34px;
       font-size: 18px;
       letter-spacing: 0.6px;
-      text-align: center; }
+      text-align: center;
+      color: #fff;
+      font-weight: 300; }
       @media only screen and (max-width: 768px) {
         .temoignages .temoignage .description {
           font-size: 14px; } }
@@ -414,10 +420,15 @@ footer {
         margin-left: 18px; }
         .temoignages .temoignage .personne .infos .name {
           font-weight: 700;
-          margin-bottom: 6px; }
-        @media only screen and (max-width: 768px) {
-          .temoignages .temoignage .personne .infos p {
-            font-size: 14px; } }
+          margin-bottom: 6px;
+          color: #fff;
+          font-weight: 500; }
+        .temoignages .temoignage .personne .infos p {
+          color: #fff;
+          font-weight: 300; }
+          @media only screen and (max-width: 768px) {
+            .temoignages .temoignage .personne .infos p {
+              font-size: 14px; } }
 
 .formulaire {
   max-width: 380px;
@@ -491,7 +502,8 @@ footer {
             height: 1px; }
       .formulaire form div.container_cta {
         display: flex;
-        justify-content: center; }
+        justify-content: center;
+        margin-bottom: 80px; }
 
 .reassurances {
   padding: 183px 10% 178px;
@@ -514,9 +526,10 @@ footer {
         max-width: inherit; } }
     .reassurances .reassurance .title {
       font-size: 18px;
-      font-weigth: 700;
+      font-weight: 700;
       margin-top: 32px;
-      margin-bottom: 16px; }
+      margin-bottom: 16px;
+      color: #4353FF; }
       @media only screen and (max-width: 768px) {
         .reassurances .reassurance .title {
           max-width: 302px;

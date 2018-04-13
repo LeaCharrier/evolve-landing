@@ -24,9 +24,10 @@
   
     .title {
       font-size: 18px;
-      font-weigth: 700;
+      font-weight: 700;
       margin-top: 32px;
       margin-bottom: 16px;
+      color: $blue;
 
       @include maxWidth($breakPointTablet) {
         max-width: 302px;
