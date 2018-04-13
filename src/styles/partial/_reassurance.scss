@@ -10,6 +10,7 @@
   @include maxWidth($breakPointTablet) {
     flex-direction: column;
     padding: 100px 16px 178px;
+    opacity: 1;
   }
 
   .reassurance {
@@ -20,6 +21,13 @@
 
     @include maxWidth($breakPointTablet) {
       max-width: inherit;
+      padding-bottom: 80px;
+    }
+
+    &:last-child {
+      @include maxWidth($breakPointTablet) {
+        padding-bottom: 0;
+      }
     }
   
     .title {
