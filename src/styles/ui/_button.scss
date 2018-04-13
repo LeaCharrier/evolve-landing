@@ -22,3 +22,13 @@
     padding: 12px 38px;
   }
 }
+
+.button_resp_bleu {
+  @include maxWidth($breakPointTablet) {
+    background-color: $blue;
+    font-size: 14px;
+    color: $white;
+    border: 1px solid $blue;
+    padding: 12px 38px;
+  }
+}

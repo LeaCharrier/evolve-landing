@@ -172,6 +172,14 @@ header {
       border: 1px solid #4353FF;
       padding: 12px 38px; } }
 
+@media only screen and (max-width: 768px) {
+  .button_resp_bleu {
+    background-color: #4353FF;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid #4353FF;
+    padding: 12px 38px; } }
+
 .concept {
   display: flex;
   justify-content: space-between;
@@ -351,16 +359,19 @@ header {
         .temoignages .temoignage .personne .infos .name {
           font-weight: 700;
           margin-bottom: 6px; }
+<<<<<<< HEAD
         @media only screen and (max-width: 768px) {
           .temoignages .temoignage .personne .infos p {
             font-size: 14px; } }
+=======
+>>>>>>> 3cdb59d798362f144b0f8fef35ed6ef69101dbdf
 
 .formulaire {
   max-width: 380px;
   width: 100%;
   margin: 0 auto;
   letter-spacing: 1px;
-  margin-top: 75px; }
+  margin-top: 150px; }
   .formulaire h2 {
     font-size: 24px;
     font-family: "lato", arial, sans-serif;
@@ -428,6 +439,7 @@ header {
       .formulaire form div.container_cta {
         display: flex;
         justify-content: center; }
+<<<<<<< HEAD
 
 .reassurances {
   padding: 183px 10% 178px;
@@ -465,6 +477,8 @@ header {
         .reassurances .reassurance .description {
           max-width: 302px;
           margin: 0 auto 45px; } }
+=======
+>>>>>>> 3cdb59d798362f144b0f8fef35ed6ef69101dbdf
 
 /* Slider */
 .slick-slider {
