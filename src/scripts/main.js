@@ -29,8 +29,10 @@ jQuery(document).ready(function($) {
   var scrollNav = function() {
     $(window).scroll(function() {    
       var scroll = $(window).scrollTop();    
-      if (scroll > 100) {
-        console.log('scroll');
+      if (scroll > 450) {
+        $(".header-container").addClass("scroll");
+      } else {
+        $(".header-container").removeClass("scroll");
       }
     });
   }

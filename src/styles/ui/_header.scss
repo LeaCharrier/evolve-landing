@@ -9,11 +9,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    // box-shadow: 0px 2px 22px $grey2;
     padding: 12px 80px;
 
-    .scroll {
-      box-shadow: 0px 2px 22px $grey2;
+    &.scroll {
+      box-shadow: 0px 2px 22px $blackShadow;
     }
 
     @include maxWidth($breakPointDesktop) {
