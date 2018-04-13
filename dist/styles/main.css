@@ -110,6 +110,9 @@ body {
   .hideTablet {
     display: none !important; } }
 
+.hideme {
+  opacity: 0; }
+
 header {
   z-index: 1000;
   position: fixed;
