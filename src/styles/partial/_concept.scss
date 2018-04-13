@@ -96,6 +96,8 @@
 
         @include maxWidth($breakPointTablet) {
           display: block !important;
+          width: 70%;
+          margin: 0 auto;
         }
       }
   }
