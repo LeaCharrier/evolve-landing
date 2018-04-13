@@ -22,12 +22,17 @@
     @include maxWidth($breakPointTablet) {
       max-width: inherit;
       padding-bottom: 80px;
+      margin: 0;
     }
 
     &:last-child {
       @include maxWidth($breakPointTablet) {
         padding-bottom: 0;
       }
+    }
+
+    img {
+      width: 30%;
     }
   
     .title {

@@ -50,7 +50,7 @@ strong {
 a{
   text-decoration: none;
   color: black;
-  cursor: pointer;
+  cursor: url(../images/hover.png) 20 20, pointer;
 }
 body{
   overflow-x: hidden;
@@ -65,4 +65,8 @@ body{
 
 .hideme {
   opacity: 0;
+}
+
+body {
+  cursor: url(../images/cursor.png) 20 20, auto;
 }

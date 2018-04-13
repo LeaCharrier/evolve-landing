@@ -61,6 +61,10 @@
                     border: none;
                     -webkit-appearance: none;
 
+                    &:hover {
+                      cursor: url(../images/hover.png) 20 20, pointer;
+                    }
+
                     &:focus {
                         outline: none;
                     }
@@ -130,7 +134,7 @@ button {
   &:hover {
     background: $blue;
     color: $white;
-    cursor: pointer;
+    cursor: url(../images/hover.png) 20 20, pointer;
   }
   
   &.clicked {

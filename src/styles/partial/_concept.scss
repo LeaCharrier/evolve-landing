@@ -1,6 +1,7 @@
 .concept {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   max-width: 1020px;
   width: 100%;
   margin: 230px auto 0;
@@ -37,10 +38,13 @@
 
     .text {
       margin-bottom: 51px;
-      letter-spacing: 1px;
+      font-size: 18px;
+      letter-spacing: 0.6px;
+      font-weight: 300;
+      line-height: 1.4;
 
       @include maxWidth($breakPointTablet) {
-        font-size: 14px;
+        font-size: 16px;
       }
 
       @include maxWidth($breakPointTablet) {

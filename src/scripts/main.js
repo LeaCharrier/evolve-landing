@@ -87,7 +87,7 @@ jQuery(document).ready(function($) {
 // ScrollReveal.js
 
 window.sr = ScrollReveal();
-sr.reveal('.popImage', { duration: 1000, delay: 200, distance: '30px' });
+sr.reveal('.popImage', { duration: 1000, delay: 200, distance: '30px', mobile: false });
 
 
 // Parallax.js
