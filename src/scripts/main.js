@@ -1,3 +1,5 @@
+// Fadein
+
 $(document).ready(function() {
     
     /* Every time the window is scrolled ... */
@@ -21,6 +23,9 @@ $(document).ready(function() {
     
 });
 
+
+// Sticky nav
+
 jQuery(document).ready(function($) {
   scrollNav();
   submit();
@@ -38,6 +43,42 @@ jQuery(document).ready(function($) {
     });
   }
 
+<<<<<<< HEAD
+
+
+  // Smooth scroll
+
+  $('a[href^="#"]').click(function(){  
+    var id = $(this).attr("href");
+    var offset = $(id).offset().top 
+    $('html, body').animate({scrollTop: offset}, 'slow'); 
+    return false;  
+}); 
+
+
+
+// ScrollReveal.js
+
+window.sr = ScrollReveal();
+sr.reveal('.popImage', { duration: 1000, delay: 200, distance: '30px' });
+
+
+// Parallax.js
+
+var scene = document.getElementById('scene');
+var parallaxInstance = new Parallax(scene);
+
+
+
+// Get value input range
+
+function updaterangeLabel(val) {
+  document.getElementById('rangeLabel').value = val
+
+}
+
+
+=======
   var submit = function() {
     var $button = $('#submit');
     var $reset = $('#reset');
@@ -63,3 +104,4 @@ jQuery(document).ready(function($) {
       $button.off('animationend webkitAnimationEnd MSAnimationEnd oAnimationEnd');
     });
   }
+>>>>>>> b67a971d4e5677b431e5b35f99d1dafd4d2df551
