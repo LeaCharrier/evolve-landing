@@ -38,7 +38,8 @@
         position: relative;
         margin: 60px 30px 0;
 
-        img {
+
+        div {
           position: absolute;
 
           &:nth-child(1) {
@@ -89,6 +90,7 @@
       }
     }
 
+
     &-right {
       position: absolute;
       width: 30%;
@@ -98,7 +100,7 @@
         position: relative;
         margin: 20px 30px 0;
 
-        img {
+        div {
           position: absolute;
 
           &:nth-child(1) {

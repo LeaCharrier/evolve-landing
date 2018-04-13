@@ -43,7 +43,7 @@ jQuery(document).ready(function($) {
     });
   }
 
-<<<<<<< HEAD
+
 
 
   // Smooth scroll
@@ -65,7 +65,7 @@ sr.reveal('.popImage', { duration: 1000, delay: 200, distance: '30px' });
 
 // Parallax.js
 
-var scene = document.getElementById('scene');
+var scene_1 = document.getElementById('scene');
 var parallaxInstance = new Parallax(scene);
 
 
@@ -78,7 +78,7 @@ function updaterangeLabel(val) {
 }
 
 
-=======
+
   var submit = function() {
     var $button = $('#submit');
     var $reset = $('#reset');
@@ -104,4 +104,4 @@ function updaterangeLabel(val) {
       $button.off('animationend webkitAnimationEnd MSAnimationEnd oAnimationEnd');
     });
   }
->>>>>>> b67a971d4e5677b431e5b35f99d1dafd4d2df551
+

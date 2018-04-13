@@ -48,13 +48,42 @@
       }
     }
   }
+  .container_robot {
+    position: relative;
 
-  .robot {
-    @include maxWidth($breakPointTablet) {
-      max-width: 260px;
-      width: 50%;
-      margin: 0 auto;
+    .oeil-gauche {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: #494646;
+      position: absolute !important;
+      left: 106px !important;
+      top: 38px !important;
+      z-index: 5;
     }
+
+    .oeil-droit {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: #494646;
+      position: absolute !important;
+      left: 145px !important;
+      top: 38px !important;
+      z-index: 5;
+    }
+
+    .robot {
+      position: relative !important;
+      display: inherit !important;
+
+      @include maxWidth($breakPointTablet) {
+        max-width: 260px;
+        width: 50%;
+        margin: 0 auto;
+
+      }
+  }
   }
 }
 
