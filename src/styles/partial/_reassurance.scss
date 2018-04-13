@@ -1,0 +1,48 @@
+.reassurances {
+  padding: 183px 10% 178px;
+  display: flex;
+  justify-content: space-between;
+
+  @include maxWidth($breakPointMaxDesktop) {
+    padding: 183px 5% 178px;
+  }
+
+  @include maxWidth($breakPointTablet) {
+    flex-direction: column;
+    padding: 100px 16px 178px;
+  }
+
+  .reassurance {
+    text-align: center;
+    max-width: 302px;
+    width: 100%;
+    margin: 0 10px;
+
+    @include maxWidth($breakPointTablet) {
+      max-width: inherit;
+    }
+  
+    .title {
+      font-size: 18px;
+      font-weigth: 700;
+      margin-top: 32px;
+      margin-bottom: 16px;
+
+      @include maxWidth($breakPointTablet) {
+        max-width: 302px;
+        margin: 16px auto 16px;
+        font-size: 16px;
+      }
+    }
+  
+    .description {
+      letter-spacing: 0.5px;
+      font-size: 14px;
+
+      @include maxWidth($breakPointTablet) {
+        max-width: 302px;
+        margin: 0 auto 45px;
+      }
+    }
+  }
+}
