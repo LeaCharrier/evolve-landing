@@ -30,6 +30,7 @@
     img {
       max-width: 500px;
       width: 50%;
+      height: 50%;
 
       @include maxWidth($breakPointTablet) {
         width: 100%;
@@ -81,6 +82,7 @@
         font-size: 18px;
         letter-spacing: 0.6px;
         font-weight: 300;
+        line-height: 1.4;
 
         @include maxWidth($breakPointTablet) {
           font-size: 16px;
