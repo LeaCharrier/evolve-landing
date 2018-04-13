@@ -10,11 +10,11 @@
   padding: 40px 200px 0;
 
   @include maxWidth($breakPointMaxDesktop) {
-    padding: 40px 100px 0;
+    padding: 40px 180px 0;
   }
 
   @include maxWidth($breakPointTablet) {
-    padding: 40px 16px 0;
+    padding: 40px 24px 0;
   }
 
   .etape {
